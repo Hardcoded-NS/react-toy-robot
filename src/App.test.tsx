@@ -14,7 +14,7 @@ const setup = (): any => {
 
 // test examples from the coding challenge spec sheet
 
-test('Example A: should report Output: 0, 1, NORTH', () => {
+test('Example A: should report Output: 0,1,NORTH', () => {
   const { getByLabelText, getByText, input } = setup()
   // command 1
   fireEvent.change(input, { target: { value: 'PLACE 0,0,NORTH' } })
@@ -28,7 +28,7 @@ test('Example A: should report Output: 0, 1, NORTH', () => {
   expect(getByLabelText('report-output').textContent).toEqual('0,1,NORTH')
 })
 
-test('Example B: should report Output: 0, 1, NORTH', () => {
+test('Example B: should report Output: 0,0,WEST', () => {
   const { getByLabelText, getByText, input } = setup()
   // command 1
   fireEvent.change(input, { target: { value: 'PLACE 0,0,NORTH' } })
@@ -42,7 +42,7 @@ test('Example B: should report Output: 0, 1, NORTH', () => {
   expect(getByLabelText('report-output').textContent).toEqual('0,0,WEST')
 })
 
-test('Example C: should report Output: 3, 3, NORTH', () => {
+test('Example C: should report Output: 3,3,NORTH', () => {
   const { getByLabelText, getByText, input } = setup()
   // command 1
   fireEvent.change(input, { target: { value: 'PLACE 1,2,EAST' } })
