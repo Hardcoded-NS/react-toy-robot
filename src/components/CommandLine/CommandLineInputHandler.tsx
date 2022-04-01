@@ -46,7 +46,7 @@ export const CommandLineInputHandler: React.FC<PropsType> = (props) => {
   return (
     <>
       <CommandLineLabelStyled htmlFor="command-input">
-        <p>Please type your commands here:</p>
+        <p>Tell the Robot what to do here:</p>
         {error && <CommandLineErrorStyled aria-label="error-message">{error}</CommandLineErrorStyled>}
         <CommandLineInputStyled
           aria-label="command-input"

@@ -8,7 +8,7 @@ interface PropsType {
 export const Header: React.FC<PropsType> = ({ heading }) => (
   <HeaderStyled>
     <H1Styled>
-      <Logo src="logo.jpg" alt="Sean logo" />
+      <Logo src="logo.jpg" alt="Namir logo" />
     </H1Styled>
     <H2Styled>{heading}</H2Styled>
   </HeaderStyled>

@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
   return (
     <AppStyled>
-      <Header heading="Toy Robot Coding Challenge - Sean Thompson" />
+      <Header heading="Let's Play With My Robot" />
       <TableTop tableState={tableState} />
       {tableState.reportPosition && (
         <ReportStyled>

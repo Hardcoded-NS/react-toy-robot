@@ -6,7 +6,7 @@ const Table = styled.table`
 `
 
 const TableCell = styled.td`
-  border: 1px solid black;
+  border: 1px solid blue;
   height: 50px;
   width: 50px;
 `
@@ -15,7 +15,7 @@ interface ActiveCellProps {
 }
 
 const TableCellActive = styled.td<ActiveCellProps>`
-  border: 1px solid black;
+  border: 1px solid blue;
   height: 50px;
   width: 50px;
 
