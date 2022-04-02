@@ -4,7 +4,7 @@ import type { CommandHistoryType } from '../../globalTypes'
 import { ErrorItemStyled, ItemStyled } from './CommandHistoryStyles'
 
 interface PropsType {
-  commands?: CommandHistoryType[]
+  commands: CommandHistoryType[]
 }
 
 export const CommandHistory: React.FC<PropsType> = (props) => {
